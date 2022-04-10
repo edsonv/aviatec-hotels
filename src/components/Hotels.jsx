@@ -20,7 +20,10 @@ export const Hotels = () => {
             <div>
               <Image filename={item.image} />
             </div>
-            <div>
+            <div
+              className="c-card-description u-d-flex"
+              style={{ "--gap": "0.7rem" }}
+            >
               <h2 className="u-fs-600 u-text-blue-2">{item.name}</h2>
               <span>
                 <Stars count={item.stars} />
@@ -37,15 +40,17 @@ export const Hotels = () => {
               </div>
             </div>
           </div>
-          <hr />
-          <div>
-            <p className="u-text-grey-1 u-fs-300">
+          <hr className="c-card-divider" />
+          <div className="c-card-preview u-d-flex">
+            <p className="u-text-grey-1 u-fs-300 u-text-center">
               Precio por noche por habitación
             </p>
-            <p className="u-text-yellow-2">
+            <p className="u-text-yellow-2 u-text-center u-fs-700">
               ARS <span className="u-fw-700">{item.price}</span>
             </p>
-            <Link to="#">Ver hotel</Link>
+            <Link to="#" className="c-card-button u-text-center">
+              Ver hotel
+            </Link>
           </div>
         </article>
       ))}

@@ -1,6 +1,6 @@
 {
-  "name": "aviatec-hoteles",
-  "homepage": "https://edsonv.github.io/aviatec-hoteles",
+  "name": "aviatec-hotels",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

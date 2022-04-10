@@ -1,3 +1,31 @@
 .c-card {
-  padding: 48px 65px;
+  padding: 6.2% 8.4%;
+}
+
+.c-card-description {
+  flex-direction: column;
+  --gap: 0.7rem;
+  margin: 10px 0 15px;
+}
+
+.c-card-divider {
+  border: none;
+  border-top: 1px dotted;
+}
+
+.c-card-preview {
+  flex-direction: column;
+  --gap: 1.5rem;
+  margin-top: 20px;
+}
+
+.c-card-button {
+  background: hsl($clr-blue-2);
+  padding: 13px 40px;
+  color: hsl($clr-white);
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: -1px;
+  max-width: max-content;
+  margin: 0 auto;
 }
