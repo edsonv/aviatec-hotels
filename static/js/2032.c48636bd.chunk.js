@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkaviatec_hotels=self.webpackChunkaviatec_hotels||[]).push([[2032],{2032:function(e,a,t){e.exports=t.p+"static/media/9320547_26_b.8347116d1fa1ae780b24.jpg"}}]);

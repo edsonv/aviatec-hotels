@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkaviatec_hotels=self.webpackChunkaviatec_hotels||[]).push([[9593],{9593:function(e){e.exports="data:image/jpeg;base64,"}}]);
