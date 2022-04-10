@@ -1,0 +1,8 @@
+main {
+  margin: 10px;
+  flex-direction: column;
+
+  @media screen and (min-width: 375.999px) {
+    margin: 16px 25px;
+  }
+}

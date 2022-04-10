@@ -1,0 +1,7 @@
+.c-filters-form {
+  display: none;
+
+  @media screen and (min-width: 375.999px) {
+    display: unset;
+  }
+}
