@@ -39,7 +39,9 @@ export const Hotels = () => {
           </div>
           <hr />
           <div>
-            <p className="u-text-grey-1">Precio por noche por habitación</p>
+            <p className="u-text-grey-1 u-fs-300">
+              Precio por noche por habitación
+            </p>
             <p className="u-text-yellow-2">
               ARS <span className="u-fw-700">{item.price}</span>
             </p>
