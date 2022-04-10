@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.37854214.css",
-    "main.js": "./static/js/main.1dfdfae1.js",
+    "main.js": "./static/js/main.71f708cd.js",
     "static/js/4297.5977e83b.chunk.js": "./static/js/4297.5977e83b.chunk.js",
     "static/js/5028.998e714e.chunk.js": "./static/js/5028.998e714e.chunk.js",
     "static/js/3011.c555ca1a.chunk.js": "./static/js/3011.c555ca1a.chunk.js",
@@ -206,11 +206,11 @@
     "static/media/logo-aviatur.svg": "./static/media/logo-aviatur.0d4ea7731bf8e13e2d6708e3dad3dcfa.svg",
     "index.html": "./index.html",
     "main.37854214.css.map": "./static/css/main.37854214.css.map",
-    "main.1dfdfae1.js.map": "./static/js/main.1dfdfae1.js.map",
+    "main.71f708cd.js.map": "./static/js/main.71f708cd.js.map",
     "787.5af29f65.chunk.js.map": "./static/js/787.5af29f65.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.37854214.css",
-    "static/js/main.1dfdfae1.js"
+    "static/js/main.71f708cd.js"
   ]
 }
