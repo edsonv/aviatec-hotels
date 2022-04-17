@@ -2,3 +2,9 @@
   display: flex;
   gap: var(--gap, 1rem);
 }
+
+.u-d-lg-none {
+  @media screen and (min-width: 1320px) {
+    display: none;
+  }
+}

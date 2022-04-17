@@ -1,5 +1,5 @@
 import { Header } from "../components/Header";
-import { Filter } from "../components/Filter";
+// import { Filter } from "../components/Filter";
 import { Hotels } from "../components/Hotels";
 
 export const Home = () => {
@@ -7,7 +7,7 @@ export const Home = () => {
     <>
       <Header />
       <main className="u-d-flex" style={{ "--gap": "40px" }}>
-        <Filter />
+        {/* <Filter /> */}
         <Hotels />
       </main>
     </>

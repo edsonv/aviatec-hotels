@@ -1,7 +1,9 @@
 .c-filters-form {
   display: none;
 
-  @media screen and (min-width: 375.999px) {
-    display: unset;
+  @media screen and (min-width: 1320px) {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
   }
 }

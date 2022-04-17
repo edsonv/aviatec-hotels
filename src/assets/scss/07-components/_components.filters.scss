@@ -1,4 +1,27 @@
 .c-filters {
   background: hsl($clr-white);
   padding: 35px 40px;
+  flex-direction: column;
+  --gap: 1rem;
+  // flex-grow: 1;
+}
+
+.c-filters-title {
+  color: hsl($clr-blue-1);
+  font-weight: 400;
+  font-size: $fs-600;
+}
+
+@media screen and (min-width: 1320px) {
+  .c-filters {
+    height: 100vh;
+    position: sticky;
+    top: 0;
+  }
+
+  .c-filters-title {
+    color: hsl($clr-grey-1);
+    font-weight: 700;
+    font-size: $fs-700;
+  }
 }
